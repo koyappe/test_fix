@@ -1,0 +1,553 @@
+Checkpoint every: 500
+Batch size: 7
+Embedding dim: 50
+Memory dim: 300
+Layers: 4
+Epochs: 100
+Resume at: 0
+Resume epoch: 1
+Resume training minibatch: 1
+RNN cell: GRU
+Bidirectional: False
+1:myself
+Successfully loaded shuffled data.
+2:myself
+49
+Training: 49 examples
+Validation: 10 examples
+Test: 39 examples
+3:myself
+/*/*/*/*/*/*/*/*/*/*/*/*/*/
+dataset == <load_data.load_data instance at 0x7f013c6662d8>
+train_x = [[0 0 0 ..., 3 2 1]
+ [0 0 0 ..., 3 2 1]
+ [0 0 0 ..., 3 2 1]
+ ..., 
+ [0 0 0 ..., 3 2 1]
+ [0 0 0 ..., 3 2 1]
+ [0 0 0 ..., 3 2 1]]
+train_y = [[49  0  0 ...,  0  0  0]
+ [ 5  2  6 ...,  0  0  0]
+ [20  2 21 ...,  0  0  0]
+ ..., 
+ [29  2 26 ...,  0  0  0]
+ [20  2 21 ...,  0  0  0]
+ [25  2  6 ...,  0  0  0]]
+valid_x = [[0 0 0 ..., 3 2 1]
+ [0 0 0 ..., 3 2 1]
+ [0 0 0 ..., 3 2 1]
+ ..., 
+ [0 0 0 ..., 3 2 1]
+ [0 0 0 ..., 3 2 1]
+ [0 0 0 ..., 3 2 1]]
+valid = [[25  2 26 17 13 24 49  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [11  2 26 17 13 24 49  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 5  2  6  7  8  9 10 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [14  2 43 12 16 44 13 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 5  2  6  7  8  9 10 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 5  2  6  7  8  9 10 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [49  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 5  2  6  7  8  9 10 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [11  2 26 17 13 24 49  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [49  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]]
+test_x = [[0 0 0 ..., 3 2 1]
+ [0 0 0 ..., 3 2 1]
+ [0 0 0 ..., 3 2 1]
+ ..., 
+ [0 0 0 ..., 3 2 1]
+ [0 0 0 ..., 3 2 1]
+ [0 0 0 ..., 3 2 1]]
+test_y = [[11  2 21  8 22  9 13 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 5  2  6  7  8  9 10 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [20  2 21  8 22 23 12  9 13 24 49  0  0  0  0  0  0  0  0  0  0]
+ [49  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [20  2 21  8 22 23 12  9 13 24 49  0  0  0  0  0  0  0  0  0  0]
+ [49  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 5  5  2 26 12 13 24 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [49  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 5  5  2 26 17 13 24 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [25  2 12 19 13 24 49  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [49  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [38  2 12 27 12 16 17 13 49  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 5  2  6 12  8  6 12 23  6 12  9 13 49  0  0  0  0  0  0  0  0]
+ [14  2 26 17 13 24 49  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [14  2 30  8 12 31 17  9 10 49  0  0  0  0  0  0  0  0  0  0  0]
+ [ 5  2  6  7  8  9 10 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 5  5  2 26 17 13 24 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [11  2  6 42 12 13 49  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [14  2 28  8 12 18 17  9 10 49  0  0  0  0  0  0  0  0  0  0  0]
+ [49  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [20  2 21  8 22  9 13 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [39  2  6 12  8  6 12 23  6 12  9 10 49  0  0  0  0  0  0  0  0]
+ [49  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 5  2  6  7  8  9 10 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [11  2 21  8 22  9 13 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [20  2 21  8 22  9 13 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [20  2 34  8 12  9 10 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [11  2  6  7  8  9 10 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [14  2 15  8 12 16 17 13 12 18 17 13 12 19  9 10 49  0  0  0  0]
+ [20  2 21  8 22 23 12  9 13 24 49  0  0  0  0  0  0  0  0  0  0]
+ [29  2 26 17 13 24 49  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 5  2  6  7  8  9 10 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [25  2  6  7  8  9 10 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 5  2  6  7  8  9 10 49  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [ 5  2  6 12  8  6 12 23  6 12  9 13 49  0  0  0  0  0  0  0  0]
+ [20  2 24 12 13 49  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [49  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [25  2 12 19 13 24 49  0  0  0  0  0  0  0  0  0  0  0  0  0  0]
+ [49  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0]]
+/*/*/*/*/*/*/*/*/*/*/*/*/*/
+In sequence length: 400
+Out sequence length: 21
+Vocabulary size: 50
+4:myself
+5:myself
+**********************************
+cell : <tensorflow.python.ops.rnn_cell.MultiRNNCell object at 0x7f01382b0310>
+dec_outputs [<tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_1/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_2/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_3/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_4/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_5/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_6/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_7/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_8/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_9/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_10/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_11/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_12/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_13/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_14/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_15/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_16/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_17/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_18/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_19/add:0' shape=(?, 50) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/AttnOutputProjection_20/add:0' shape=(?, 50) dtype=float32>] dec_memory (<tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/MultiRNNCell_20/Cell0/GRUCell/add:0' shape=(?, 300) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/MultiRNNCell_20/Cell1/GRUCell/add:0' shape=(?, 300) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/MultiRNNCell_20/Cell2/GRUCell/add:0' shape=(?, 300) dtype=float32>, <tf.Tensor 'embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/MultiRNNCell_20/Cell3/GRUCell/add:0' shape=(?, 300) dtype=float32>)
+**********************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+loss : Tensor("sequence_loss/truediv:0", shape=(), dtype=float32)
+------------------------------------------
+optimizer : <tensorflow.python.training.adam.AdamOptimizer object at 0x7f00e3fb31d0>
+------------------------------------------
+gvs : [(<tensorflow.python.framework.ops.IndexedSlices object at 0x7f008c05b4d0>, <tensorflow.python.ops.variables.Variable object at 0x7f0138253910>), (<tf.Tensor 'gradients/AddN_5113:0' shape=(350, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f013827b910>), (<tf.Tensor 'gradients/AddN_5112:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f013827b950>), (<tf.Tensor 'gradients/AddN_5111:0' shape=(350, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f0138225410>), (<tf.Tensor 'gradients/AddN_5110:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f0138225450>), (<tf.Tensor 'gradients/AddN_5102:0' shape=(600, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381df310>), (<tf.Tensor 'gradients/AddN_5101:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381df350>), (<tf.Tensor 'gradients/AddN_5100:0' shape=(600, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381f0dd0>), (<tf.Tensor 'gradients/AddN_5098:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381f0e10>), (<tf.Tensor 'gradients/AddN_5085:0' shape=(600, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381b2cd0>), (<tf.Tensor 'gradients/AddN_5084:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381b2d10>), (<tf.Tensor 'gradients/AddN_5082:0' shape=(600, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381567d0>), (<tf.Tensor 'gradients/AddN_5080:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f0138156810>), (<tf.Tensor 'gradients/AddN_5062:0' shape=(600, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381136d0>), (<tf.Tensor 'gradients/AddN_5061:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f0138113710>), (<tf.Tensor 'gradients/AddN_5056:0' shape=(600, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f013813a1d0>), (<tf.Tensor 'gradients/AddN_5054:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f013813a210>), (<tensorflow.python.framework.ops.IndexedSlices object at 0x7f00da0c1cd0>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4495210>), (<tf.Tensor 'gradients/embedding_attention_seq2seq/embedding_attention_decoder/attention_decoder/Conv2D_grad/tuple/control_dependency_1:0' shape=(1, 1, 300, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e44b4910>), (<tf.Tensor 'gradients/AddN_264:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e44b4dd0>), (<tf.Tensor 'gradients/AddN_346:0' shape=(350, 50) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e446d110>), (<tf.Tensor 'gradients/AddN_343:0' shape=(50,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e446d090>), (<tf.Tensor 'gradients/AddN_335:0' shape=(350, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e440f690>), (<tf.Tensor 'gradients/AddN_332:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e440f6d0>), (<tf.Tensor 'gradients/AddN_326:0' shape=(350, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4435190>), (<tf.Tensor 'gradients/AddN_325:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e44351d0>), (<tf.Tensor 'gradients/AddN_308:0' shape=(600, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e43f0090>), (<tf.Tensor 'gradients/AddN_305:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e43f00d0>), (<tf.Tensor 'gradients/AddN_302:0' shape=(600, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4384b50>), (<tf.Tensor 'gradients/AddN_301:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4384b90>), (<tf.Tensor 'gradients/AddN_288:0' shape=(600, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4342a50>), (<tf.Tensor 'gradients/AddN_285:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4342a90>), (<tf.Tensor 'gradients/AddN_284:0' shape=(600, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4369550>), (<tf.Tensor 'gradients/AddN_283:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4369590>), (<tf.Tensor 'gradients/AddN_274:0' shape=(600, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4326450>), (<tf.Tensor 'gradients/AddN_273:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4326490>), (<tf.Tensor 'gradients/AddN_272:0' shape=(600, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4334f10>), (<tf.Tensor 'gradients/AddN_271:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4334f50>), (<tf.Tensor 'gradients/AddN_263:0' shape=(300, 50) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e447f5d0>), (<tf.Tensor 'gradients/AddN_262:0' shape=(50,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e447f6d0>), (<tf.Tensor 'gradients/AddN_268:0' shape=(1200, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e428b290>), (<tf.Tensor 'gradients/AddN_267:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e428b310>), (<tf.Tensor 'gradients/AddN_260:0' shape=(350, 50) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e42b1850>), (<tf.Tensor 'gradients/AddN_259:0' shape=(50,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e42b1810>)]
+------------------------------------------
+capped_gvs : [(<tf.Tensor 'clip_by_value:0' shape=(?, ?) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f0138253910>), (<tf.Tensor 'clip_by_value_1:0' shape=(350, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f013827b910>), (<tf.Tensor 'clip_by_value_2:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f013827b950>), (<tf.Tensor 'clip_by_value_3:0' shape=(350, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f0138225410>), (<tf.Tensor 'clip_by_value_4:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f0138225450>), (<tf.Tensor 'clip_by_value_5:0' shape=(600, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381df310>), (<tf.Tensor 'clip_by_value_6:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381df350>), (<tf.Tensor 'clip_by_value_7:0' shape=(600, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381f0dd0>), (<tf.Tensor 'clip_by_value_8:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381f0e10>), (<tf.Tensor 'clip_by_value_9:0' shape=(600, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381b2cd0>), (<tf.Tensor 'clip_by_value_10:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381b2d10>), (<tf.Tensor 'clip_by_value_11:0' shape=(600, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381567d0>), (<tf.Tensor 'clip_by_value_12:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f0138156810>), (<tf.Tensor 'clip_by_value_13:0' shape=(600, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f01381136d0>), (<tf.Tensor 'clip_by_value_14:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f0138113710>), (<tf.Tensor 'clip_by_value_15:0' shape=(600, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f013813a1d0>), (<tf.Tensor 'clip_by_value_16:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f013813a210>), (<tf.Tensor 'clip_by_value_17:0' shape=(?, ?) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4495210>), (<tf.Tensor 'clip_by_value_18:0' shape=(1, 1, 300, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e44b4910>), (<tf.Tensor 'clip_by_value_19:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e44b4dd0>), (<tf.Tensor 'clip_by_value_20:0' shape=(350, 50) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e446d110>), (<tf.Tensor 'clip_by_value_21:0' shape=(50,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e446d090>), (<tf.Tensor 'clip_by_value_22:0' shape=(350, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e440f690>), (<tf.Tensor 'clip_by_value_23:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e440f6d0>), (<tf.Tensor 'clip_by_value_24:0' shape=(350, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4435190>), (<tf.Tensor 'clip_by_value_25:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e44351d0>), (<tf.Tensor 'clip_by_value_26:0' shape=(600, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e43f0090>), (<tf.Tensor 'clip_by_value_27:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e43f00d0>), (<tf.Tensor 'clip_by_value_28:0' shape=(600, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4384b50>), (<tf.Tensor 'clip_by_value_29:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4384b90>), (<tf.Tensor 'clip_by_value_30:0' shape=(600, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4342a50>), (<tf.Tensor 'clip_by_value_31:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4342a90>), (<tf.Tensor 'clip_by_value_32:0' shape=(600, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4369550>), (<tf.Tensor 'clip_by_value_33:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4369590>), (<tf.Tensor 'clip_by_value_34:0' shape=(600, 600) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4326450>), (<tf.Tensor 'clip_by_value_35:0' shape=(600,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4326490>), (<tf.Tensor 'clip_by_value_36:0' shape=(600, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4334f10>), (<tf.Tensor 'clip_by_value_37:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e4334f50>), (<tf.Tensor 'clip_by_value_38:0' shape=(300, 50) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e447f5d0>), (<tf.Tensor 'clip_by_value_39:0' shape=(50,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e447f6d0>), (<tf.Tensor 'clip_by_value_40:0' shape=(1200, 300) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e428b290>), (<tf.Tensor 'clip_by_value_41:0' shape=(300,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e428b310>), (<tf.Tensor 'clip_by_value_42:0' shape=(350, 50) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e42b1850>), (<tf.Tensor 'clip_by_value_43:0' shape=(50,) dtype=float32>, <tensorflow.python.ops.variables.Variable object at 0x7f00e42b1810>)]
+------------------------------------------
+train_op : name: "Adam"
+op: "NoOp"
+input: "^Adam/NoOp"
+input: "^Adam/NoOp_1"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+6:myself
+7:myself
+7.1:myself
+8:myself
+9:myself
+10:myself
+11:myself
+Step: 1	Epoch: 1.28571	Loss: 3.81433
+11:myself
+Step: 2	Epoch: 1.42857	Loss: 2.56427
+11:myself
+Step: 3	Epoch: 1.57143	Loss: 1.88955
+11:myself
+Step: 4	Epoch: 1.71429	Loss: 1.46273
+11:myself
+Step: 5	Epoch: 1.85714	Loss: 1.63986
+11:myself
+Step: 6	Epoch: 2	Loss: 1.27609
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 2, Minibatch 0.
+End of Epoch: 2
+[Training] Loss: 2.10781
+15:myself
+[Validation] Loss: 1.20852 Token: 0.666667 Localization: 0 Repair: 0
+[Test] Loss: 1.48868 Token: 0.613605 Localization: 0 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 2, Minibatch 0.
+[Time] Took 1.74358 minutes to run.
+10:myself
+11:myself
+Step: 7	Epoch: 2.14286	Loss: 1.53038
+11:myself
+Step: 8	Epoch: 2.28571	Loss: 1.42343
+11:myself
+Step: 9	Epoch: 2.42857	Loss: 2.32548
+11:myself
+Step: 10	Epoch: 2.57143	Loss: 1.46537
+11:myself
+Step: 11	Epoch: 2.71429	Loss: 1.16385
+11:myself
+Step: 12	Epoch: 2.85714	Loss: 1.60797
+11:myself
+Step: 13	Epoch: 3	Loss: 1.24715
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 3, Minibatch 0.
+End of Epoch: 3
+[Training] Loss: 1.53766
+15:myself
+[Validation] Loss: 1.22904 Token: 0.707483 Localization: 0 Repair: 0
+[Test] Loss: 1.54574 Token: 0.653061 Localization: 0 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 3, Minibatch 0.
+[Time] Took 0.996341 minutes to run.
+10:myself
+11:myself
+Step: 14	Epoch: 3.14286	Loss: 1.6014
+11:myself
+Step: 15	Epoch: 3.28571	Loss: 1.32647
+11:myself
+Step: 16	Epoch: 3.42857	Loss: 2.06873
+11:myself
+Step: 17	Epoch: 3.57143	Loss: 1.61169
+11:myself
+Step: 18	Epoch: 3.71429	Loss: 1.34338
+11:myself
+Step: 19	Epoch: 3.85714	Loss: 1.31423
+11:myself
+Step: 20	Epoch: 4	Loss: 1.15986
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 4, Minibatch 0.
+End of Epoch: 4
+[Training] Loss: 1.48939
+15:myself
+[Validation] Loss: 1.23756 Token: 0.693878 Localization: 0 Repair: 0
+[Test] Loss: 1.60608 Token: 0.636735 Localization: 0 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 4, Minibatch 0.
+[Time] Took 0.766154 minutes to run.
+10:myself
+11:myself
+Step: 21	Epoch: 4.14286	Loss: 1.6434
+11:myself
+Step: 22	Epoch: 4.28571	Loss: 1.50418
+11:myself
+Step: 23	Epoch: 4.42857	Loss: 2.30359
+11:myself
+Step: 24	Epoch: 4.57143	Loss: 1.44936
+11:myself
+Step: 25	Epoch: 4.71429	Loss: 1.05691
+11:myself
+Step: 26	Epoch: 4.85714	Loss: 1.34246
+11:myself
+Step: 27	Epoch: 5	Loss: 1.15287
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 5, Minibatch 0.
+End of Epoch: 5
+[Training] Loss: 1.49325
+15:myself
+[Validation] Loss: 1.11169 Token: 0.707483 Localization: 0 Repair: 0
+[Test] Loss: 1.37839 Token: 0.653061 Localization: 0 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 5, Minibatch 0.
+[Time] Took 0.745149 minutes to run.
+10:myself
+11:myself
+Step: 28	Epoch: 5.14286	Loss: 1.40671
+11:myself
+Step: 29	Epoch: 5.28571	Loss: 1.29916
+11:myself
+Step: 30	Epoch: 5.42857	Loss: 2.12163
+11:myself
+Step: 31	Epoch: 5.57143	Loss: 1.2579
+11:myself
+Step: 32	Epoch: 5.71429	Loss: 1.23261
+11:myself
+Step: 33	Epoch: 5.85714	Loss: 1.28914
+11:myself
+Step: 34	Epoch: 6	Loss: 1.13371
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 6, Minibatch 0.
+End of Epoch: 6
+[Training] Loss: 1.39155
+15:myself
+[Validation] Loss: 1.06133 Token: 0.714286 Localization: 0 Repair: 0
+[Test] Loss: 1.29971 Token: 0.662585 Localization: 0 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 6, Minibatch 0.
+[Time] Took 0.740472 minutes to run.
+10:myself
+11:myself
+Step: 35	Epoch: 6.14286	Loss: 1.33275
+11:myself
+Step: 36	Epoch: 6.28571	Loss: 1.25324
+11:myself
+Step: 37	Epoch: 6.42857	Loss: 2.15148
+11:myself
+Step: 38	Epoch: 6.57143	Loss: 1.18886
+11:myself
+Step: 39	Epoch: 6.71429	Loss: 1.03877
+11:myself
+Step: 40	Epoch: 6.85714	Loss: 1.21982
+11:myself
+Step: 41	Epoch: 7	Loss: 1.11292
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 7, Minibatch 0.
+End of Epoch: 7
+[Training] Loss: 1.32826
+15:myself
+[Validation] Loss: 1.02583 Token: 0.70068 Localization: 0 Repair: 0
+[Test] Loss: 1.23765 Token: 0.661224 Localization: 0 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 7, Minibatch 0.
+[Time] Took 0.737357 minutes to run.
+10:myself
+11:myself
+Step: 42	Epoch: 7.14286	Loss: 1.24749
+11:myself
+Step: 43	Epoch: 7.28571	Loss: 1.14204
+11:myself
+Step: 44	Epoch: 7.42857	Loss: 1.99814
+11:myself
+Step: 45	Epoch: 7.57143	Loss: 1.12631
+11:myself
+Step: 46	Epoch: 7.71429	Loss: 0.987785
+11:myself
+Step: 47	Epoch: 7.85714	Loss: 1.14152
+11:myself
+Step: 48	Epoch: 8	Loss: 1.01913
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 8, Minibatch 0.
+End of Epoch: 8
+[Training] Loss: 1.23749
+15:myself
+[Validation] Loss: 1.00028 Token: 0.70068 Localization: 0 Repair: 0
+[Test] Loss: 1.21052 Token: 0.663946 Localization: 0 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 8, Minibatch 0.
+[Time] Took 0.781914 minutes to run.
+10:myself
+11:myself
+Step: 49	Epoch: 8.14286	Loss: 1.23224
+11:myself
+Step: 50	Epoch: 8.28571	Loss: 1.11949
+11:myself
+Step: 51	Epoch: 8.42857	Loss: 1.98024
+11:myself
+Step: 52	Epoch: 8.57143	Loss: 1.10261
+11:myself
+Step: 53	Epoch: 8.71429	Loss: 1.01692
+11:myself
+Step: 54	Epoch: 8.85714	Loss: 1.14882
+11:myself
+Step: 55	Epoch: 9	Loss: 0.998137
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 9, Minibatch 0.
+End of Epoch: 9
+[Training] Loss: 1.22835
+15:myself
+[Validation] Loss: 0.962453 Token: 0.70068 Localization: 0 Repair: 0
+[Test] Loss: 1.18075 Token: 0.659864 Localization: 0 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 9, Minibatch 0.
+[Time] Took 0.70333 minutes to run.
+10:myself
+11:myself
+Step: 56	Epoch: 9.14286	Loss: 1.17313
+11:myself
+Step: 57	Epoch: 9.28571	Loss: 1.08922
+11:myself
+Step: 58	Epoch: 9.42857	Loss: 1.98319
+11:myself
+Step: 59	Epoch: 9.57143	Loss: 1.05332
+11:myself
+Step: 60	Epoch: 9.71429	Loss: 0.972438
+11:myself
+Step: 61	Epoch: 9.85714	Loss: 1.09824
+11:myself
+Step: 62	Epoch: 10	Loss: 0.965979
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 10, Minibatch 0.
+End of Epoch: 10
+[Training] Loss: 1.19079
+15:myself
+[Validation] Loss: 0.939107 Token: 0.721088 Localization: 0.428571 Repair: 0
+[Test] Loss: 1.13722 Token: 0.680272 Localization: 0.2 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 10, Minibatch 0.
+[Time] Took 0.734432 minutes to run.
+10:myself
+11:myself
+Step: 63	Epoch: 10.1429	Loss: 1.15126
+11:myself
+Step: 64	Epoch: 10.2857	Loss: 1.05179
+11:myself
+Step: 65	Epoch: 10.4286	Loss: 1.92116
+11:myself
+Step: 66	Epoch: 10.5714	Loss: 1.03537
+11:myself
+Step: 67	Epoch: 10.7143	Loss: 0.93555
+11:myself
+Step: 68	Epoch: 10.8571	Loss: 1.0453
+11:myself
+Step: 69	Epoch: 11	Loss: 0.957437
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 11, Minibatch 0.
+End of Epoch: 11
+[Training] Loss: 1.15684
+15:myself
+[Validation] Loss: 0.909668 Token: 0.727891 Localization: 0.428571 Repair: 0
+[Test] Loss: 1.10567 Token: 0.684354 Localization: 0.2 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 11, Minibatch 0.
+[Time] Took 0.750867 minutes to run.
+10:myself
+11:myself
+Step: 70	Epoch: 11.1429	Loss: 1.13652
+11:myself
+Step: 71	Epoch: 11.2857	Loss: 1.01024
+11:myself
+Step: 72	Epoch: 11.4286	Loss: 1.93286
+11:myself
+Step: 73	Epoch: 11.5714	Loss: 0.993171
+11:myself
+Step: 74	Epoch: 11.7143	Loss: 0.898294
+11:myself
+Step: 75	Epoch: 11.8571	Loss: 1.04732
+11:myself
+Step: 76	Epoch: 12	Loss: 0.933196
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 12, Minibatch 0.
+End of Epoch: 12
+[Training] Loss: 1.13594
+15:myself
+[Validation] Loss: 0.908199 Token: 0.727891 Localization: 0.142857 Repair: 0
+[Test] Loss: 1.08529 Token: 0.684354 Localization: 0.171429 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 12, Minibatch 0.
+[Time] Took 0.741583 minutes to run.
+10:myself
+11:myself
+Step: 77	Epoch: 12.1429	Loss: 1.09542
+11:myself
+Step: 78	Epoch: 12.2857	Loss: 0.983263
+11:myself
+Step: 79	Epoch: 12.4286	Loss: 1.82293
+11:myself
+Step: 80	Epoch: 12.5714	Loss: 0.968728
+11:myself
+Step: 81	Epoch: 12.7143	Loss: 0.915096
+11:myself
+Step: 82	Epoch: 12.8571	Loss: 1.00526
+11:myself
+Step: 83	Epoch: 13	Loss: 0.908746
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 13, Minibatch 0.
+End of Epoch: 13
+[Training] Loss: 1.09992
+15:myself
+[Validation] Loss: 0.900955 Token: 0.714286 Localization: 0.142857 Repair: 0
+[Test] Loss: 1.06805 Token: 0.682993 Localization: 0.171429 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 13, Minibatch 0.
+[Time] Took 0.74075 minutes to run.
+10:myself
+11:myself
+Step: 84	Epoch: 13.1429	Loss: 1.04275
+11:myself
+Step: 85	Epoch: 13.2857	Loss: 0.954224
+11:myself
+Step: 86	Epoch: 13.4286	Loss: 1.81118
+11:myself
+Step: 87	Epoch: 13.5714	Loss: 0.988398
+11:myself
+Step: 88	Epoch: 13.7143	Loss: 0.986836
+11:myself
+Step: 89	Epoch: 13.8571	Loss: 0.971539
+11:myself
+Step: 90	Epoch: 14	Loss: 0.872821
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 14, Minibatch 0.
+End of Epoch: 14
+[Training] Loss: 1.08968
+15:myself
+[Validation] Loss: 0.905546 Token: 0.721088 Localization: 0.285714 Repair: 0
+[Test] Loss: 1.09363 Token: 0.687075 Localization: 0.228571 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 14, Minibatch 0.
+[Time] Took 0.775308 minutes to run.
+10:myself
+11:myself
+Step: 91	Epoch: 14.1429	Loss: 1.07648
+11:myself
+Step: 92	Epoch: 14.2857	Loss: 0.980442
+11:myself
+Step: 93	Epoch: 14.4286	Loss: 1.80358
+11:myself
+Step: 94	Epoch: 14.5714	Loss: 0.975903
+11:myself
+Step: 95	Epoch: 14.7143	Loss: 0.994375
+11:myself
+Step: 96	Epoch: 14.8571	Loss: 0.971153
+11:myself
+Step: 97	Epoch: 15	Loss: 0.91631
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 15, Minibatch 0.
+End of Epoch: 15
+[Training] Loss: 1.10261
+15:myself
+[Validation] Loss: 0.846852 Token: 0.714286 Localization: 0.142857 Repair: 0
+[Test] Loss: 1.04051 Token: 0.689796 Localization: 0.2 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 15, Minibatch 0.
+[Time] Took 0.704826 minutes to run.
+10:myself
+11:myself
+Step: 98	Epoch: 15.1429	Loss: 1.02683
+11:myself
+Step: 99	Epoch: 15.2857	Loss: 0.938316
+11:myself
+Step: 100	Epoch: 15.4286	Loss: 1.82755
+11:myself
+Step: 101	Epoch: 15.5714	Loss: 0.926799
+11:myself
+Step: 102	Epoch: 15.7143	Loss: 0.866098
+11:myself
+Step: 103	Epoch: 15.8571	Loss: 0.912484
+11:myself
+Step: 104	Epoch: 16	Loss: 0.849438
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 16, Minibatch 0.
+End of Epoch: 16
+[Training] Loss: 1.04965
+15:myself
+[Validation] Loss: 0.848582 Token: 0.714286 Localization: 0.142857 Repair: 0
+[Test] Loss: 1.02004 Token: 0.687075 Localization: 0.171429 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 16, Minibatch 0.
+[Time] Took 0.743816 minutes to run.
+10:myself
+11:myself
+Step: 105	Epoch: 16.1429	Loss: 0.999789
+11:myself
+Step: 106	Epoch: 16.2857	Loss: 0.926682
+11:myself
+Step: 107	Epoch: 16.4286	Loss: 1.73898
+11:myself
+Step: 108	Epoch: 16.5714	Loss: 0.955154
+11:myself
+Step: 109	Epoch: 16.7143	Loss: 0.95864
+11:myself
+Step: 110	Epoch: 16.8571	Loss: 0.905922
+11:myself
+Step: 111	Epoch: 17	Loss: 0.80537
+12:myself
+13:myself
+14:myself
+[Checkpoint] Checkpointed at Epoch 17, Minibatch 0.
+End of Epoch: 17
+[Training] Loss: 1.04151
+15:myself
+[Validation] Loss: 0.817888 Token: 0.721088 Localization: 0.142857 Repair: 0
+[Test] Loss: 1.03308 Token: 0.684354 Localization: 0.171429 Repair: 0
+[Best Checkpoint] Checkpointed at Epoch 17, Minibatch 0.
+[Time] Took 0.864029 minutes to run.
+10:myself
+11:myself
+Step: 112	Epoch: 17.1429	Loss: 1.0459
+11:myself
+Step: 113	Epoch: 17.2857	Loss: 0.95093
+11:myself
+Step: 114	Epoch: 17.4286	Loss: 1.80666
+11:myself
+Step: 115	Epoch: 17.5714	Loss: 0.874463
+11:myself
+Step: 116	Epoch: 17.7143	Loss: 0.962787

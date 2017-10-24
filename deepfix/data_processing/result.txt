@@ -1,0 +1,827 @@
+data_generator.py  passed
+Dropping IDs...
+
+data_generator.py  Gnerate data
+process.py  generate_binned_training_data passed
+basedir =  data/train/fold_0
+source_file =  test3.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+source_file =  test4.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+source_file =  test7.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+source_file =  test5.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test5.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test5.c
+source_file =  test6.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+source_file =  test.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+source_file =  test8.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+source_file =  test2.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+basedir =  data/train/fold_1
+source_file =  test3.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+source_file =  test4.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+source_file =  test9.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+source_file =  test10.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+source_file =  test5.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test5.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test5.c
+source_file =  test6.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+source_file =  test.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+source_file =  test2.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+basedir =  data/train/fold_2
+source_file =  test3.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+source_file =  test4.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+source_file =  test7.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+source_file =  test9.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+source_file =  test10.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+source_file =  test.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+source_file =  test8.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+source_file =  test2.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+basedir =  data/train/fold_3
+source_file =  test7.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+source_file =  test9.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+source_file =  test10.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+source_file =  test5.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test5.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test5.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test5.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test5.c
+source_file =  test6.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+source_file =  test.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+source_file =  test8.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+source_file =  test2.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+basedir =  data/train/fold_4
+source_file =  test3.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+source_file =  test4.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+source_file =  test7.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+source_file =  test9.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+source_file =  test10.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+source_file =  test5.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test5.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test5.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test5.c
+source_file =  test6.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+source_file =  test8.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+basedir =  data/validation/fold_0
+source_file =  test9.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test9.c
+source_file =  test10.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test10.c
+basedir =  data/validation/fold_1
+source_file =  test7.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test7.c
+source_file =  test8.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test8.c
+basedir =  data/validation/fold_2
+source_file =  test5.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test5.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test5.c
+source_file =  test6.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test6.c
+basedir =  data/validation/fold_3
+source_file =  test3.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test3.c
+source_file =  test4.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test4.c
+basedir =  data/validation/fold_4
+source_file =  test.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test.c
+source_file =  test2.c
+process.py  rename_ids_passed
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+process.py  rename_ids_passed
+
+corrrupt_program_new =  source_file : test2.c
+Statistics
+----------
+Program length:  Mean = 46.7 	95th %ile = 94
+Mean fix length: Mean = 7.61061946903 	95th %ile =  12
+Total mutate calls: 50
+Exceptions in mutate() call: 0 
+
+program_lists =  {'train': {0: ['test3.c', 'test3.c', 'test3.c', 'test3.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test5.c', 'test5.c', 'test5.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c'], 1: ['test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test5.c', 'test5.c', 'test5.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c'], 2: ['test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c'], 3: ['test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test5.c', 'test5.c', 'test5.c', 'test5.c', 'test5.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test.c', 'test.c', 'test.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c'], 4: ['test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test5.c', 'test5.c', 'test5.c', 'test5.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c']}, 'validation': {0: ['test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c'], 1: ['test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c'], 2: ['test5.c', 'test5.c', 'test5.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c'], 3: ['test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c'], 4: ['test.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c']}} 
+
+<type 'dict'>
+source_file : {0: ['test3.c', 'test3.c', 'test3.c', 'test3.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test5.c', 'test5.c', 'test5.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c'], 1: ['test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test5.c', 'test5.c', 'test5.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c'], 2: ['test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c'], 3: ['test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test5.c', 'test5.c', 'test5.c', 'test5.c', 'test5.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test.c', 'test.c', 'test.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c'], 4: ['test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test5.c', 'test5.c', 'test5.c', 'test5.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c']}
+source_file : {0: ['test3.c', 'test3.c', 'test3.c', 'test3.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test5.c', 'test5.c', 'test5.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c'], 1: ['test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test5.c', 'test5.c', 'test5.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c'], 2: ['test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c'], 3: ['test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test5.c', 'test5.c', 'test5.c', 'test5.c', 'test5.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test.c', 'test.c', 'test.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c', 'test2.c'], 4: ['test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test3.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test4.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test7.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test9.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test10.c', 'test5.c', 'test5.c', 'test5.c', 'test5.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test6.c', 'test8.c', 'test8.c', 'test8.c', 'test8.c']}
+source_code : {'fixes': ['', '1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ ', '4 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_, _<id>_1@ _<op>_) _<op>_; _<op>_} ', '4 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_, _<id>_1@ _<op>_) _<op>_; _<op>_} ', '', '2 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_) _<op>_; ', '3 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '2 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_) _<op>_; ', '', '1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ ', '4 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_) _<op>_; ', '3 ~ _<keyword>_while _<op>_( _<id>_1@ _<op>_< _<number>_# _<op>_) _<op>_{ ', '5 ~ _<id>_1@ _<op>_++ _<op>_; _<op>_} ', '', '3 ~ _<keyword>_if _<op>_( _<id>_1@ _<op>_== _<number>_# _<op>_) _<op>_{ ', '4 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_, _<id>_1@ _<op>_) _<op>_; _<op>_} ', '', '3 ~ _<APIcall>_scanf _<op>_( _<string>_ _<op>_, _<op>_& _<id>_1@ _<op>_) _<op>_; ', '1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ ', '1 0 ~ _<keyword>_break _<op>_; _<op>_} ', '4 ~ _<keyword>_switch _<op>_( _<id>_1@ _<op>_) _<op>_{ ', '3 ~ _<APIcall>_scanf _<op>_( _<string>_ _<op>_, _<op>_& _<id>_1@ _<op>_) _<op>_; ', '', '2 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '2 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ ', '1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ ', '', '1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ ', '3 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; ', '5 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ ', '3 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; ', '', '1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ ', '5 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ ', '5 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '2 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; '], 'programs': ['0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_; 3 ~ _<keyword>_for _<op>_( _<id>_1@ _<op>_= _<number>_# _<op>_; _<id>_1@ _<op>_< _<number>_# _<op>_; _<id>_1@ _<op>_++ _<op>_) _<op>_{ 4 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_, _<id>_1@ _<op>_) _<op>_; _<op>_} 5 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) 2 ~ _<type>_int _<id>_1@ _<op>_; 3 ~ _<keyword>_for _<op>_( _<id>_1@ _<op>_= _<number>_# _<op>_; _<id>_1@ _<op>_< _<number>_# _<op>_; _<id>_1@ _<op>_++ _<op>_) _<op>_{ 4 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_; _<id>_1@ _<op>_) _<op>_; _<op>_} 5 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_; 3 ~ _<keyword>_for _<op>_( _<id>_1@ _<op>_= _<number>_# _<op>_; _<id>_1@ _<op>_< _<number>_# _<op>_; _<id>_1@ _<op>_++ _<op>_) _<op>_{ 4 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_; _<id>_1@ _<op>_) _<op>_; _<op>_} 5 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_; 3 ~ _<keyword>_for _<op>_( _<id>_1@ _<op>_= _<number>_# _<op>_; _<id>_1@ _<op>_< _<number>_# _<op>_; _<id>_1@ _<op>_++ _<op>_) _<op>_{ 4 ~ _<APIcall>_printf _<op>_( _<string>_ _<id>_1@ _<op>_; _<op>_) _<op>_} 5 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_) _<op>_; 3 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<APIcall>_printf _<string>_ _<op>_) _<op>_. 3 ~ _<keyword>_return _<number>_# _<op>_, _<op>_} _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_) _<op>_; 3 ~ _<keyword>_return _<number>_# _<op>_, _<op>_} _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<APIcall>_printf _<op>_( _<op>_( _<string>_ _<op>_) _<op>_; 3 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; 3 ~ _<keyword>_while _<op>_( _<id>_1@ _<op>_< _<number>_# _<op>_) _<op>_{ 4 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_) _<op>_; 5 ~ _<id>_1@ _<op>_++ _<op>_; _<op>_} 6 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_{ _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; 3 ~ _<keyword>_while _<id>_1@ _<op>_< _<number>_# _<op>_) _<op>_) 4 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_) _<op>_; 5 ~ _<id>_1@ _<op>_++ _<op>_; _<op>_} 6 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; 3 ~ _<keyword>_while _<op>_( _<id>_1@ _<op>_< _<number>_# _<op>_) _<op>_{ 4 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_) 5 ~ _<id>_1@ _<op>_++ _<op>_; _<op>_} _<op>_} 6 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; 3 ~ _<keyword>_while _<id>_1@ _<op>_< _<number>_# _<op>_) _<op>_) 4 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_) _<op>_; 5 ~ _<id>_1@ _<op>_++ _<op>_; _<op>_} 6 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; 3 ~ _<keyword>_while _<op>_( _<id>_1@ _<op>_< _<number>_# _<op>_) _<op>_{ 4 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_) _<op>_; 5 ~ _<id>_1@ _<op>_++ _<op>_; _<op>_} _<op>_} 6 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; 3 ~ _<keyword>_if _<op>_( _<id>_1@ _<op>_== _<number>_# _<op>_) _<op>_{ 4 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_, _<id>_1@ _<op>_) _<op>_; _<op>_} 5 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; 3 ~ _<keyword>_if _<id>_1@ _<op>_== _<number>_# _<op>_) _<op>_{ 4 ~ _<APIcall>_printf _<op>_( _<string>_ _<op>_, _<id>_1@ _<op>_) _<op>_; _<op>_} 5 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; 3 ~ _<keyword>_if _<op>_( _<id>_1@ _<op>_== _<number>_# _<op>_) _<op>_{ 4 ~ _<APIcall>_printf _<op>_( _<op>_( _<string>_ _<op>_, _<id>_1@ _<op>_) _<op>_; _<op>_} 5 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_; 3 ~ _<APIcall>_scanf _<op>_( _<string>_ _<op>_, _<op>_& _<id>_1@ _<op>_) _<op>_; 4 ~ _<keyword>_switch _<op>_( _<id>_1@ _<op>_) _<op>_{ 5 ~ _<keyword>_case _<number>_# _<op>_: 6 ~ _<keyword>_break _<op>_; 7 ~ _<keyword>_case _<number>_# _<op>_: 8 ~ _<keyword>_break _<op>_; 9 ~ _<keyword>_default _<op>_: 1 0 ~ _<keyword>_break _<op>_; _<op>_} 1 1 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_; 3 ~ _<APIcall>_scanf _<op>_( _<string>_ _<op>_, _<op>_& _<id>_1@ _<op>_; _<op>_) 4 ~ _<keyword>_switch _<op>_( _<id>_1@ _<op>_) _<op>_{ 5 ~ _<keyword>_case _<number>_# _<op>_: 6 ~ _<keyword>_break _<op>_; 7 ~ _<keyword>_case _<number>_# _<op>_: 8 ~ _<keyword>_break _<op>_; 9 ~ _<keyword>_default _<op>_: 1 0 ~ _<keyword>_break _<op>_; _<op>_} 1 1 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_; 3 ~ _<APIcall>_scanf _<op>_( _<string>_ _<op>_& _<id>_1@ _<op>_; 4 ~ _<keyword>_switch _<op>_( _<id>_1@ _<op>_) _<op>_) _<op>_{ 5 ~ _<keyword>_case _<number>_# _<op>_: 6 ~ _<keyword>_break _<op>_; 7 ~ _<keyword>_case _<number>_# _<op>_: 8 ~ _<keyword>_break _<op>_; 9 ~ _<keyword>_default _<op>_: 1 0 ~ _<keyword>_break _<op>_; _<op>_} _<op>_} 1 1 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_; 3 ~ _<APIcall>_scanf _<op>_( _<string>_ _<op>_, _<op>_& _<id>_1@ _<op>_) _<op>_; 4 ~ _<keyword>_switch _<op>_( _<id>_1@ _<op>_) _<op>_{ 5 ~ _<keyword>_case _<number>_# _<op>_: 6 ~ _<keyword>_break _<op>_; 7 ~ _<keyword>_case _<number>_# _<op>_: 8 ~ _<keyword>_break _<op>_; 9 ~ _<keyword>_default _<op>_: 1 0 ~ _<keyword>_break _<op>_; _<op>_} _<op>_} 1 1 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_; 3 ~ _<APIcall>_scanf _<op>_( _<string>_ _<op>_, _<op>_& _<id>_1@ _<op>_) _<op>_; 4 ~ _<keyword>_switch _<op>_( _<id>_1@ _<op>_) _<op>_) _<op>_{ 5 ~ _<keyword>_case _<number>_# _<op>_: 6 ~ _<keyword>_break _<op>_; 7 ~ _<keyword>_case _<number>_# _<op>_: 8 ~ _<keyword>_break _<op>_; 9 ~ _<keyword>_default _<op>_: 1 0 ~ _<keyword>_break _<op>_; _<op>_} _<op>_} 1 1 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_; 3 ~ _<APIcall>_scanf _<op>_( _<string>_ _<op>_& _<id>_1@ _<op>_; 4 ~ _<keyword>_switch _<op>_( _<id>_1@ _<op>_) _<op>_) _<op>_{ 5 ~ _<keyword>_case _<number>_# _<op>_: 6 ~ _<keyword>_break _<op>_; 7 ~ _<keyword>_case _<number>_# _<op>_: 8 ~ _<keyword>_break _<op>_; 9 ~ _<keyword>_default _<op>_: 1 0 ~ _<keyword>_break _<op>_; _<op>_} _<op>_} 1 1 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<keyword>_return _<number>_# _<op>_, _<op>_} _<op>_} _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<keyword>_return _<number>_# _<op>_. _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_) _<op>_{ 2 ~ _<keyword>_return _<number>_# _<op>_, _<op>_} _<op>_} _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_( _<op>_) 2 ~ _<keyword>_return _<number>_# _<op>_. _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<op>_* _<id>_1@ _<op>_; 3 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; 4 ~ _<op>_* _<id>_1@ _<op>_= _<id>_1@ _<op>_; 5 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ _<op>_{ 2 ~ _<type>_int _<op>_* _<id>_1@ _<op>_; 3 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# 4 ~ _<op>_* _<id>_1@ _<op>_= _<id>_1@ _<op>_; 5 ~ _<keyword>_return _<number>_# _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<op>_* _<id>_1@ _<op>_; 3 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_. 4 ~ _<op>_* _<id>_1@ _<op>_= _<id>_1@ _<op>_; 5 ~ _<keyword>_return _<number>_# _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<op>_* _<id>_1@ _<op>_; 3 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; 4 ~ _<op>_* _<id>_1@ _<op>_= _<id>_1@ _<op>_; 5 ~ _<keyword>_return _<number>_# _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) 2 ~ _<type>_int _<op>_* _<id>_1@ _<op>_; 3 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_. 4 ~ _<op>_* _<id>_1@ _<op>_= _<id>_1@ _<op>_; 5 ~ _<keyword>_return _<number>_# _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<op>_* _<id>_1@ _<op>_; 3 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# 4 ~ _<op>_* _<id>_1@ _<op>_= _<id>_1@ _<op>_; 5 ~ _<keyword>_return _<number>_# _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; 3 ~ _<type>_char _<id>_1@ _<op>_= _<char>_ _<op>_; 4 ~ _<type>_float _<id>_1@ _<op>_= _<number>_# _<op>_; 5 ~ _<keyword>_return _<number>_# _<op>_; _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# 3 ~ _<type>_char _<id>_1@ _<op>_= _<char>_ _<op>_; 4 ~ _<type>_float _<id>_1@ _<op>_= _<number>_# _<op>_; 5 ~ _<keyword>_return _<number>_# _<op>_. _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; 3 ~ _<type>_char _<id>_1@ _<op>_= _<char>_ _<op>_; 4 ~ _<type>_float _<id>_1@ _<op>_= _<number>_# _<op>_; 5 ~ _<keyword>_return _<number>_# _<op>_. _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; 3 ~ _<type>_char _<id>_1@ _<op>_= _<char>_ _<op>_; 4 ~ _<type>_float _<id>_1@ _<op>_= _<number>_# _<op>_; 5 ~ _<keyword>_return _<number>_# _<op>_} _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# _<op>_; 3 ~ _<type>_char _<id>_1@ _<op>_= _<char>_ _<op>_; 4 ~ _<type>_float _<id>_1@ _<op>_= _<number>_# _<op>_; 5 ~ _<keyword>_return _<number>_# _<op>_} _<op>_} ', '0 ~ _<directive>_#include _<include>_<stdio.h> 1 ~ _<type>_int _<APIcall>_main _<op>_( _<op>_) _<op>_{ 2 ~ _<type>_int _<id>_1@ _<op>_= _<number>_# 3 ~ _<type>_char _<id>_1@ _<op>_= _<char>_ _<op>_; 4 ~ _<type>_float _<id>_1@ _<op>_= _<number>_# _<op>_; 5 ~ _<keyword>_return _<number>_# _<op>_. _<op>_} ']}
+data_generator.py  Build the dictionary
+process.py  build_dictionary passed
+Dictionary size: 50
+data_generator.py  Tokenize
+process.py  vectorize_data passed
+data_generator.py  Save everything
+process.py  save_folds passed
+Fold 0: 39 train, 10 validation and 39 test
+process.py  save_pairs passed
+Fold 1: 47 train, 12 validation and 37 test
+process.py  save_pairs passed
+Fold 2: 47 train, 7 validation and 42 test
+process.py  save_pairs passed
+Fold 3: 45 train, 10 validation and 39 test
+process.py  save_pairs passed
+Fold 4: 49 train, 10 validation and 39 test
+process.py  save_pairs passed
+
+process.py  save_dictionaries passed
+data_generator.py  pre-dpne()
+done at 25/09/2017 01:26:44
